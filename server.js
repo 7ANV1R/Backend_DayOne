@@ -24,7 +24,7 @@ mongoose.connect(connection_url, {
 
 // API Endpoints
 
-app.get("/", (req, res) => res.status(200).send("Working!"));
+app.get("/", (req, res) => res.status(200).send("Backend working!"));
 
 app.post("/tinder/card", (req, res) => {
   const dbCard = req.body;
